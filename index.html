@@ -33,6 +33,14 @@
              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
          }
 
+         #maintainers {
+             margin-top: 10px;
+         }
+
+         #libraries {
+             margin-top: 10px;
+         }
+
          h1 {
              text-align: center;
              color: #333;
@@ -41,11 +49,36 @@
          p {
              line-height: 1.5;
          }
+
+         .card {
+             display: flex;
+             align-items: center;
+             margin-bottom: 20px;
+         }
+
+         .card-image {
+             width: 80px;
+             height: 80px;
+             border-radius: 50%;
+             overflow: hidden;
+             margin-right: 10px;
+         }
+
+         .card-image img {
+             width: 100%;
+             height: 100%;
+             object-fit: cover;
+         }
+
+         .card-text {
+             font-size: 16px;
+         }
         </style>
     </head>
     <body>
         <div class="background-image"></div>
-        <div class="container">
+
+        <div id="witchtails" class="container">
             <h1>Welcome to WitchTails</h1>
             <p>
                 The Elixir ecosystem has many small but important libraries.
@@ -63,5 +96,35 @@
                 If you have written a library or know of a library that needs some extra love, please let us know.
             </p>
         </div>
+
+        <div id="libraries" class="container">
+            <h1>WitchTails Libraries</h1>
+
+            <p>
+                These are the current libraries that are maintained by the WitchTails group.
+            </p>
+
+            <div class="card">
+            </div>
+        </div>
+
+        <div id="maintainers" class="container">
+            <h1>WitchTails Maintainers</h1>
+
+            <p>
+                These are the current libraries that are maintained by the WitchTails group.
+            </p>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="niklas-johansson.jpg" alt="raphexion">
+                </div>
+                <div class="card-text">
+                    <h3><a href="https://github.com/Raphexion" target="_blank">Raphexion</a></h3>
+                    <p>Niklas is a senior software engineer at Eiger. He loves Erlang and Elixir and lives in Denmark</p>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

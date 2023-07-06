@@ -1,33 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: Witch Tails
+email: raphexion@gmail.com
+description: >-
+  The Elixir ecosystem has numerous small but important libraries.
+  Some of these are written by a single person that saw a problem and found a solution.
+  Unfortunately, sometimes the maintainer doesn't have the time to keep the library up-to-date.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Instead of having a 1-to-1 relationship between a library and a maintainer, we provide a N-to-M relationship.
+  Where we in the Witch Tails group (N) help to maintain multiple small libraries (M).
+  As a group we can support one another by taking over tasks when someone is busy (life happens).
+
+  If you have written a library or know of a library that needs some extra love, please let us know.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "witchtails.github.io"
+twitter_username: witchtails
+github_username: witchtails
 
 # Build settings
 theme: minima
